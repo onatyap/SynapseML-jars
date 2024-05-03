@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>synapseml_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>synapseml</description>
+    <url>https://github.com/Microsoft/SynapseML</url>
+    <version>1.0.4</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://github.com/Microsoft/SynapseML/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>synapseml</name>
+    <organization>
+        <name>com.microsoft.azure</name>
+        <url>https://github.com/Microsoft/SynapseML</url>
+    </organization>
+    <scm>
+        <url>https://github.com/Microsoft/SynapseML</url>
+        <connection>scm:git@github.com:Microsoft/SynapseML.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>mhamilton723</id>
+            <name>Mark Hamilton</name>
+            <url>https://github.com/mhamilton723</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+        <developer>
+            <id>imatiach-msft</id>
+            <name>Ilya Matiach</name>
+            <url>https://github.com/imatiach-msft</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+        <developer>
+            <id>drdarshan</id>
+            <name>Sudarshan Raghunathan</name>
+            <url>https://github.com/drdarshan</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+        <developer>
+            <id>svotaw</id>
+            <name>Scott Votaw</name>
+            <url>https://github.com/svotaw</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+        <developer>
+            <id>BrendanWalsh</id>
+            <name>Brendan Walsh</name>
+            <url>https://github.com/BrendanWalsh</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+        <developer>
+            <id>JessicaXYWang</id>
+            <name>Jessica Wang</name>
+            <url>https://github.com/JessicaXYWang</url>
+            <email>synapseml-support@microsoft.com</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <!-- excluded dependency "org.scala-lang" % "scala-library"
+% "2.12.17" has been omitted -->
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-core_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-deep-learning_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-cognitive_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-vw_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-lightgbm_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>synapseml-opencv_2.12</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+    </dependencies>
+</project>
